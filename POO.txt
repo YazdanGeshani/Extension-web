@@ -1,0 +1,28 @@
+1.C’est quoi la Programmation Orientée Objet ?
+
+Normalement vous avez dû coder jusqu’à présent en programmation procédurale. Vous connaissez donc le principe des fonctions où les données sont facilement accessibles et modifiables.
+
+Vous avez peut-être remarqué que ça peut vite devenir l’anarchie et un beau bordel tant il est très rapide et tentant de créer des fonctions et d’en mettre un peu partout dans nos applications.
+
+La programmation orientée objet c’est un peu l’inverse. Les fonctions sont remplacées par des objets où les données sont plus difficilement accessibles et modifiables.
+
+Si on se base sur Wikipédia, la POO est un paradigme de programmation (voyez cela comme une méthode) élaboré par 2 Norvégiens au début des années 1960.
+
+Le principe est assez simple : la programmation orientée objet consiste à créer et faire interagir des briques logicielles que l’on appelle objets.
+
+Et un objet représente une idée, un concept ou toute entité du monde physique. Un ordinateur est un objet. L’article que vous lisez est lui-même un objet et l’on peut même dire que vous et moi, nous sommes des objets. Nous verrons un peu plus loin de manière plus approfondie comment fonctionnent les objets.
+
+Notez quand même que la façon de penser les problèmes et la conception de vos programmes sera totalement différente par rapport à la méthode procédurale.
+
+
+2.Qu’est-ce qu’un objet ?
+
+Comme je vous l’ai dit plus haut, en POO, tout est objet et c’est pareil dans la vie réelle. Prenons pour exemple l’ordinateur que vous utilisez pour lire cet article.
+
+L’ordinateur est un objet :
+
+    il possède ce qu’on appelle des propriétés caractérisées sous forme de données. Pour l’ordinateur, c’est une marque, un clavier, une souris, de la RAM, un processeur, un disque dur, etc…
+    il peut réaliser des actions. L’ordinateur peut s’allumer ou s’éteindre, réaliser des traitements.
+    Il peut interagir avec d’autres objets. L’ordinateur doit interagir avec un écran (qui est un objet) pour fonctionner, un humain (qui est un objet aussi) peut allumer ou éteindre l’ordinateur.
+
+Bien entendu, la logique veut que l’on peut avoir plusieurs objets (donc plusieurs ordinateurs si on reprend notre exemple) mais qui auront certainement des caractéristiques différentes (les propriétés seront les mêmes mais les données seront différentes). On parlera alors d’instance.
